@@ -161,7 +161,7 @@
   backdrop-filter: blur(10px);
   /* padding: 10px; */
   width: 380px;
-  max-height: 800px;
+  height: 500px;
   border-radius: 5px;
   background-image: radial-gradient(circle 311px at 8.6% 27.9%, rgba(62, 147, 252, 0.57) 12.9%, rgba(239, 183, 192, 0.44) 91.2%);
   box-shadow: rgb(255, 193, 238) 0px 0px 4px;
@@ -176,7 +176,7 @@
 }
 
 .youtubevideos div p {
-  max-height: 150px;
+  max-height: 300px;
 }
 
 .youtubevideos div button {
@@ -201,6 +201,12 @@
   margin: 0 10px;
 }
 
+.watchButton{
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+
 .watch:hover {
   background-color: #00DBDE;
   background-image: linear-gradient(-225deg, #0dd2d6 0%, #ff38d4 100%);
@@ -208,7 +214,7 @@
 }
 
 .videotext {
-  height: 150px;
+  max-height: 300px;
 }
 
 .videotext p{
