@@ -41,7 +41,7 @@ export default function Home() {
             }}
           /></span>
           <p>Welcome to CodeByte, your go-to resource for initiating your coding journey! If you find yourself contemplating how to embark on the coding path, worry not. CodeByte is here to furnish you with fundamental knowledge essential for language acquisition. Whether you are a novice or looking to strengthen your coding foundation, we've got you covered with comprehensive insights and guidance.</p>
-          <Link href={'/protected'}><button className={`btn ${styles.button}`}>Free Courses</button></Link>
+          <Link href={'/protected'}><button className={`btn ${styles.button} mt-5`}>Free Courses</button></Link>
         </div>
         <video src={require('../public/video.mp4')} autoPlay muted loop className={`${styles.photo}`} loading='lazy' />
         <video src={require('../public/video2.mp4')} autoPlay muted loop className={`${styles.photo1}`} loading='lazy' />
