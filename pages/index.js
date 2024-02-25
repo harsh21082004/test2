@@ -61,7 +61,7 @@ export default function Home() {
                   <h4 className={`text-white`}>My upcoming react project</h4>
                   <p className={`text-white`}>It is my new upcoming react project (AI Based Attandence System).Here you will learn how to work in react and make webapps.</p>
                 </div>
-                <div className={`mt-5`}>
+                <div className={`mt-5 ${styles.watchButton}`}>
                   <Link href="/videos/new-upcoming-react-project">
                     <button className={`btn  my-2 ${styles.watch}`}>Watch</button>
                   </Link>
@@ -79,7 +79,7 @@ export default function Home() {
                   <h4 className={`text-white`}>How To Make Contact Form</h4>
                   <p className={`text-white`}>In this video you will learn hoe to make a working contact form using html, css and javascript.</p>
                 </div>
-                <div className={`mt-5`}>
+                <div className={`mt-5 ${styles.watchButton}`}>
                   <Link href="/videos/responsive-navbar">
                     <button className={`btn  my-2 ${styles.watch}`}>Watch</button>
                   </Link>
@@ -97,7 +97,7 @@ export default function Home() {
                   <h4 className={`text-white`}>How To Make a Login Form</h4>
                   <p className={`text-white`}>In this video i will show you how to make a responsive login form using html, css and javascript.</p>
                 </div>
-                <div className={`mt-5`}>
+                <div className={`mt-5 ${styles.watchButton}`}>
                   <Link href="/videos/contact-form">
                     <button className={`btn  my-2 ${styles.watch}`}>Watch</button>
                   </Link>
