@@ -36,7 +36,7 @@ const authOptions = {
           await connectDb();
           const userExist = await User.findOne({ email });
           if (!userExist) {
-            let res = await fetch('https://test2-git-main-harsh-tiwaris-projects-d082038c.vercel.app/api/googlecredential', {
+            let res = await fetch('https://testcodebyte.vercel.app/api/googlecredential', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
