@@ -36,13 +36,13 @@ const Signup = () => {
 
     //google signin
     async function handleGoogleSignin() {
-        signIn("google", { callbackUrl: "https://testcodebyte.vercel.app" })
+        signIn("google", { callbackUrl: "https://test2-git-main-harsh-tiwaris-projects-d082038c.vercel.app" })
 
     }
 
     //github signin
     async function handleGithubSignin() {
-        signIn("github", { callbackUrl: "https://testcodebyte.vercel.app" })
+        signIn("github", { callbackUrl: "https://test2-git-main-harsh-tiwaris-projects-d082038c.vercel.app" })
     }
 
     const handleTextType = () => {
